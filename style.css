@@ -157,9 +157,52 @@ p{line-height: 150%;margin-bottom: 2em;}
 
 /**end service section**/
 
+/**start protfolio section**/
+.protfolio-sec{
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.protfolio-sec .protfolio-heading{
+    padding: 40px 0px;
+}
+.protfolio-sec .protfolio-heading h2{
+    font-size: 44px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform:capitalize;
+    text-align: center;
+}
+.protfolio-sec .protfolio-heading h2::after{
+    content:"";
+    display: block;
+    width: 82px;
+    height: 3px;
+    background: red;
+    margin:0px auto;
+}
 
+.protfolio-sec .protfolio-all{
+
+}
+
+.protfolio-sec .protfolio-all .demo-prot{
+    padding: 20px 0px;
+}
+
+.protfolio-sec .protfolio-all .demo-prot img{
+    width: 30%;
+    height: 200px;
+    padding: 0px 14px;
+}
+/**end protfolio section**/
+
+/**start make it section**/
+.makeit-full-bg{
+    background: black;
+    color:#ffffff;
+}
 .make-it{
     overflow: hidden;
+    padding: 31px 0px;
 }
 .make-it .make-text{
     width:60%;
@@ -180,7 +223,13 @@ p{line-height: 150%;margin-bottom: 2em;}
 
 
 .make-it .hire-batton{
-   
+    float: left;
+    text-align: center;
+    margin: 6%;
+    border: 2px solid #fff;
+    padding: 13px;
+    border-radius: 28px;
+
 }
 .make-it .hire-batton a{
     text-decoration: none;
@@ -189,4 +238,7 @@ p{line-height: 150%;margin-bottom: 2em;}
     text-transform:capitalize;
     text-align: center;
     display: block;
+    color: #fff;
 }
+
+/**end make it section**/
