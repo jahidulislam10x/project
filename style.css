@@ -242,3 +242,92 @@ p{line-height: 150%;margin-bottom: 2em;}
 }
 
 /**end make it section**/
+
+/*start heppy client */
+
+.happy-client-full{
+padding: 30px 0px;
+background-image: url(img/images\ \(3\).jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.cont-client{
+    overflow: hidden;
+    padding: 40px 0px;
+}
+.heppy-client .work{
+    width:25%;
+    float: left;
+    text-align: center;
+}
+.heppy-client .work .fa{
+    font-size: 50px;
+    color:red;
+}
+.heppy-client .work h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heppy-client .work p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*end heppy client */
+
+/* start client feedback  */
+.cont-feedback{
+    overflow: hidden;
+    padding: 40px 0px;
+}
+.client-feedback h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1em;
+}
+.client-feedback h1::after{
+    content:"";
+    display: block;
+    width: 82px;
+    height: 3px;
+    background: red;
+    margin:0px auto;
+}
+.client-feedback .feedback{
+    width:45%;
+    float: left;
+    padding: 40px 24px;
+}
+.client-feedback .feedback .img-sec{
+    width: 30%;
+    height:100%;
+    float: left;
+    padding:10px;
+}
+.client-feedback .feedback .img-sec img{
+    width:200px;
+    height: 100px;
+    float: left;
+}
+.client-feedback .feedback .text-sec{
+    width: 65%;
+    float: right;
+}
+.client-feedback .feedback .text-sec p{
+    font-size: 15px;
+    font-family:serif;
+    text-align: justify;
+    border-left: 2px solid red;
+    padding-left: 5px;
+}
+.client-feedback .feedback h2{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+.client-feedback .feedback h3{
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+/* end client feedback */
